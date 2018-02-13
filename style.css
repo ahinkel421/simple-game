@@ -6,13 +6,13 @@
 	display: none;
 }
 
+.answer {
+	font-style: italic;
+}
+
 .start-section {
 	display: block;
 	text-align: center;
 	margin-top: 40px;
 }
-
-/*.name-form {
-	margin: 90px 0 0 35px;
-}*/
 

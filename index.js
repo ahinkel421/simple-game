@@ -12,6 +12,9 @@ function getPlayerName() {
 	}
 	else {
 		player.name = $('.player-name').val();
+		$('.name-form').addClass('hidden');
+		$('.name-answer').text(player.name);
+		$('.a1').removeClass('hidden');
 	}
 }
 

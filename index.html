@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>game</title>
+	<title>simple-game</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head> 
 <body>
 	<section class="start-section">
 		<button class="start-button">Start Game</button>
 	</section>
-	<p class="first-greeting hidden">Greetings! What is your name?</p>
+	<p class="first-greeting hidden">Q: Greetings! What is your name?</p>
 	<form class="hidden name-form">
 		<div class="input-box">
 			<input type="text" name="name" class="player-name">
 			<button class="submit submit-name">Submit</button>
 		</div>
 	</form>
-	<p class="name-answer">
-		<!--Name appended here-->
+	<p class="answer a1 hidden">
+		A: <span class="name-answer"><!--Name appended here--></span>
+	</p>
+	<p>
+		
 	</p>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="index.js"></script>
